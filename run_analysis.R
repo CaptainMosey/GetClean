@@ -77,6 +77,8 @@ run_analysis<-function(){
 
   }
   
+  
+  #add column names and write to file
   colnames(smallMelt)<-c("Subject","Activity Code","Activity",cname)
   write.table(smallMelt,file="ans.txt",row.names=F)
   
