@@ -16,7 +16,7 @@ run_analysis<-function(){
   y_train<-read.table(paste(getwd(),"/UCI HAR Dataset/train/y_train.txt",sep=""))
   
   
-  print("loaded")
+
   
   #put data sets together
   test<-cbind(X_test,subject_test)
