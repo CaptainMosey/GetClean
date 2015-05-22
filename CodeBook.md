@@ -15,9 +15,9 @@ and run "run_analysis" function with no arguments. function will load the train
 and test data from the /UCI HAR Dataset/ folders, as well as labels for 
 activities and features:
 
-*X_test, subject_test, y_test 
-*X_train, subject_train, y_train
-*activity_labels, features
+* X_test, subject_test, y_test 
+* X_train, subject_train, y_train
+* activity_labels, features
 
 These data are merged into complete "test" and"train" sets, which are then
  bound together in a data table named "total".  This dataset has descriptive
